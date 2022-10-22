@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="{{m_idioma}}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{app_titulo}}</title>
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="almacen/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="almacen/favicon.ico" type="image/x-icon">
+<link href="/webme/css/bootstrap.min.css" rel="stylesheet">
+<link href="/webme/font-awesome/css/font-awesome.css" rel="stylesheet">
+<link href="/webme/css/plugins/sweetalert/sweetalert.css" rel="stylesheet">
+<link href="/webme/css/plugins/toastr/toastr.min.css" rel="stylesheet">
+<link href="/webme/css/plugins/awesome-bootstrap-checkbox/awesome-bootstrap-checkbox.css" rel="stylesheet">
+<link href="/webme/css/plugins/datapicker/datepicker3.css" rel="stylesheet">
+<link href="/webme/css/plugins/clockpicker/clockpicker.css" rel="stylesheet">
+<link href="/webme/css/animate.css" rel="stylesheet">
+<link href="/webme/css/style.css" rel="stylesheet">
+<link href="/webme/base.css" rel="stylesheet">
+</head>
+<body class="top-navigation">
+<div id="wrapper">
+    <div id="page-wrapper" class="gray-bg">
+        <div class="row border-bottom white-bg">
+			<div id="ME_MENU"></div>
+		</div>
+        <div class="wrapper wrapper-content" style="padding-top: 10px">
+            <div class="container">
+				<div id="VISTA_BASE" class="me-centrar m-t-lg">
+					<div class="ME_ESPERE h1 m-t-xs text-success text-center">
+						<img src="/webme/img/espere.gif" alt="" />
+					</div>
+					<div class="ME_CONTENIDO"></div>
+					<div class="ME_CASO"></div>
+					<div class="ME_DETALLES"></div>
+				</div>
+            </div>
+        </div>
+		<br>
+        <div class="footer">
+            <div>
+                {{app_titulo}} &copy; {{hoy_ano}}
+            </div>
+        </div>
+	</div>
+</div>
+<div id="ME_VENTANA" class="modal inmodal fade" tabindex="-10000" role="dialog" aria-hidden="true" data-backdrop="static"></div>
+<div id="modal_espere" class="me-ocultar">
+	<div class="modal-dialog modal-sm">
+		<div class="modal-content">
+			<div class="modal-body text-center">
+				<div>((Espere-un-momento))…</div>
+				<img src="/webme/img/espere.gif" alt="" />
+			</div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="ME_COMPLETA" tabindex="-10000" role="dialog" aria-hidden="true" data-backdrop="static" data-keyboard="true">
+	<div class="modal-dialog" style="margin: 0">
+		<div class="modal-content"></div>
+	</div>
+</div>
+
+<script src="/webme/js/jquery-3.1.1.min.js"></script>
+<script src="/webme/js/popper.min.js"></script>
+<script src="/webme/js/bootstrap.min.js"></script>
+<script src="/webme/js/plugins/metisMenu/jquery.metisMenu.js"></script>
+<script src="/webme/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+<script src="/webme/js/plugins/sweetalert/sweetalert.min.js"></script>
+<script src="/webme/js/plugins/typehead/bootstrap3-typeahead.min.js"></script>
+<script src="/webme/js/plugins/toastr/toastr.min.js"></script>
+<script src="/webme/js/plugins/datapicker/bootstrap-datepicker.min.js"></script>
+<script src="/webme/js/plugins/clockpicker/clockpicker.min.js"></script>
+<script src="/webme/js/plugins/touchspin/jquery.bootstrap-touchspin.min.js"></script>
+<script src="/webme/js/inspinia.js"></script>
+<script src="/webme/base.js"></script>
+<script src="/webme/me.js"></script>
+<script src="servicios/inicio.js"></script>
+<!--[PERSONALIZADAS]-->
+<script src="servicios/InteractorUsuarios.js"></script>
+
+<script type="text/javascript">
+	jQuery(document).ready( function() {
+		M.dir = '{{m_puntofinal}}';
+		M.Ejecutor.Iniciar();
+	});
+	/* TODO: Sacar comentario para activar serviceWorker de PWA
+	if ('serviceWorker' in navigator) {
+		window.addEventListener('load', function() {
+			navigator.serviceWorker.register('/sw.js').then(function(registration) {
+				navigator.serviceWorker.controller.postMessage({
+					type: 'DIR',
+					payload: '{{m_puntofinal}}',
+				});
+			}).catch(function(e) {
+				console.log('SW no registrado:', e);
+			});
+		});
+	}
+	*/
+</script>
+</body>
+</html>

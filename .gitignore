@@ -1,0 +1,9 @@
+# Project exclude paths
+/index.php
+/php_error.log
+/error.log
+/trazado.txt
+/.idea/
+/.idea/*.*
+/*/almacen/usuarios/*.json
+/*/almacen/temp/*.*

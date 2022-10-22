@@ -1,0 +1,4 @@
+<FilesMatch "\.(php|xml|xsl|xlsx|xlsm|txt|sql|po|mo)$">
+ Order Allow,Deny
+ Deny from all
+</FilesMatch>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+  <seccion etiqueta="Perfil de usuario" icono="" menu="u" roles="*">
+    <seccion etiqueta="Cambiar contraseña…" interaccion="M.Usuarios.nuevaClave()" icono="fa-key" menu="u" roles="*"/>
+  </seccion>
+  <seccion etiqueta="Usuarios" interaccion="M.Usuarios.Consultar(0)" icono="fa-user-circle-o" menu="p" roles="Admin" descripcion="Administrar Usuarios"/>
+</menu>

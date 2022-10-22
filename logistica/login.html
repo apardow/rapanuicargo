@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="{{m_idioma}}">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{{app_titulo}}</title>
+	<link rel="manifest" href="manifest.json">
+	<link rel="icon" href="almacen/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="almacen/favicon.ico" type="image/x-icon">
+	<link href="/webme/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/webme/css/plugins/toastr/toastr.min.css" rel="stylesheet">
+	<link href="/webme/font-awesome/css/font-awesome.css" rel="stylesheet">
+	<link href="/webme/css/animate.css" rel="stylesheet">
+	<link href="/webme/css/style.css" rel="stylesheet">
+	<link href="/webme/base.css" rel="stylesheet">
+</head>
+<body class="gray-bg">
+<div class="middle-box text-center animated fadeInDown">
+	<div>
+		<img src="almacen/logo.jpg" alt="">
+	</div>
+	<br>
+	<div style="max-width:90%; margin: 0 auto;">
+		<form class="m-t" role="form" action="javascript:void(0)" id="form_autenticar">
+			<h3>((Acceso-usuarios))</h3>
+			<p>((Inicie-sesion-para-ingresar-a-la-aplicacion))</p>
+			<div class="form-group">
+				<input type="text" class="form-control" placeholder="((A_Usuario))" required="required" name="usuario">
+			</div>
+			<div class="form-group">
+				<input type="password" class="form-control" placeholder="((A_Contraseña))" required="required" name="clave">
+			</div>
+			<button type="button" class="btn btn-success block full-width m-b" onclick="M.Ejecutor.iniciarSesion()" title="((Iniciar-sesion))">((Iniciar-sesion))</button>
+			<p><a href="javascript:void(0)" onclick="M.Ejecutor.recuperarClave(true)">((Olvido-su-contraseña?))</a></p>
+		</form>
+		<form class="m-t me-ocultar" role="form" action="javascript:void(0)" id="form_enviar">
+			<h3>((Olvido-su-contraseña?))</h3>
+			<p>((Ingrese-su-correo-para-enviarle-un-codigo-para-restablecer-su-contraseña))</p>
+			<div class="form-group">
+				<input type="email" name="email" class="form-control" placeholder="((Su-correo-electronico))" required="required">
+			</div>
+			<button type="button" class="btn btn-default m-b" title="((Cancelar))" onclick="M.Ejecutor.recuperarClave(false)">((Cancelar))</button>
+			<button type="button" class="btn btn-success m-b" title="((Enviar-codigo))" onclick="M.Ejecutor.enviarCodigo()">((Enviar-codigo))</button>
+			<p>((Si-ya-lo-recibio-vaya-a)) <a href="javascript:void(0)" onclick="M.Ejecutor.ingresarCodigo()"><b>((Ingresar-codigo))</b></a></p>
+		</form>
+		<form class="m-t me-ocultar" role="form" action="javascript:void(0)" id="form_restaurar">
+			<h3>((Restablecer-su-contraseña))</h3>
+			<p class="intro">((Le-enviamos-un-correo-con-instrucciones))</p>
+			<p>((Escriba-el-codigo-que-recibio-y-complete-el-formulario))</p>
+			<div class="form-group">
+				<input type="text" class="form-control" placeholder="((Codigo))" required="required" name="codigo">
+			</div>
+			<div class="form-group">
+				<input type="text" class="form-control" placeholder="((Usuario))" required="required" name="usuario">
+			</div>
+			<div class="form-group">
+				((Nueva-contraseña))<br>
+				<input type="password" class="form-control" placeholder="" required="required" name="clave">
+			</div>
+			<div class="form-group">
+				((Repita-la-contraseña))<br>
+				<input type="password" class="form-control" placeholder="" required="required" name="clave2">
+			</div>
+			<button type="button" class="btn btn-success block full-width m-b" onclick="M.Ejecutor.cambiarClave()" title="((Restablecer))">((Restablecer))</button>
+		</form>
+	</div>
+	<div class="ME_ESPERE text-success me-ocultar">
+		<img src="/webme/img/espere.gif" alt="" />
+	</div>
+	<br>
+</div>
+<script src="/webme/js/jquery-3.1.1.min.js"></script>
+<script src="/webme/js/bootstrap.js"></script>
+<script src="/webme/js/plugins/toastr/toastr.min.js"></script>
+<script src="/webme/base.js"></script>
+<script src="/webme/me.js"></script>
+<script src="base-atributos"></script>
+<script type="text/javascript">
+	jQuery(document).ready( function() {
+		M.dir = './base';
+		M.form['autenticar'] = 'form_autenticar';
+		M.form['restaurar'] = 'form_restaurar';
+		M.form['enviar'] = 'form_enviar';
+		M.Ejecutor.anularSesion();
+	});
+</script>
+</body>
+</html>

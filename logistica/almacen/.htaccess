@@ -1,0 +1,11 @@
+<IfModule mod_rewrite.c>
+RewriteEngine Off
+</IfModule>
+SetOutputFilter DEFLATE
+Header unset ETag
+FileETag None
+<FilesMatch "\.(js|css|ico|pdf|jpg|jpeg|png|gif)$">
+Header set Cache-Control "public"
+Header set Expires "Fri, 14 May 2066 20:00:00 GMT"
+Header unset Last-Modified
+</FilesMatch>

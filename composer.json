@@ -1,0 +1,34 @@
+{
+  "name": "masexperto/rapanuicargo",
+  "description": "",
+  "license": "Apache 2.0",
+  "authors": [
+    {
+      "name": "Ruben Araya Tagle",
+      "email": "rubenarayatagle@gmail.com"
+    }
+  ],
+  "config": {
+    "vendor-dir": "../../vendor"
+  },
+  "minimum-stability": "dev",
+  "require": {
+    "masexperto/phpme": "^1.5.3",
+    "ext-gettext": "*",
+    "ext-json": "*",
+    "ext-simplexml": "*",
+    "ext-dom": "*",
+    "ext-xsl": "*",
+    "ext-mbstring": "*",
+    "ext-zip": "*",
+    "ext-gd": "*",
+    "ext-libxml": "*",
+    "ext-mysqli": "*"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url":  "https://github.com/rubenaraya/phpme.git"
+    }
+
+  ]}

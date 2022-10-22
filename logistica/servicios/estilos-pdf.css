@@ -1,0 +1,16 @@
+@charset "UTF-8";
+.mpdf_toc { font-size: 18px; }
+span.mpdf_toc_t_level_1 { font-weight: normal; font-style: normal; }
+.mpdf_toc_t_level_1 { font-weight: normal !important; }
+.mpdf_toc_t_level_2  { font-weight: normal; }
+
+.text-center { text-align: center; margin-left: auto; margin-right: auto; }
+.text-right { text-align: right; }
+.text-left { text-align: left; }
+.text-justify { text-align: justify; }
+
+.logo { width: auto; height: 90px; }
+hr.separador { background-color: #dddddd; height: 1px; }
+table.detalles { border-collapse: collapse; width: 100%; color: black; font-size: 1rem; }
+table.detalles td { border-bottom: 1px solid #dddddd; padding: 0.35rem; vertical-align: middle; }
+table.detalles th { padding: 0.35rem; vertical-align: middle; background-color: #dddddd; }

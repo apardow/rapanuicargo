@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<me>
+	<modelo id="Base">
+		<permisos para="" operacion="BASE-GET" roles="*"/>
+		<permisos para="" operacion="BASE-MENU" roles="*"/>
+		<permisos para="" operacion="BASE-ATRIBUTOS" roles="*"/>
+		<permisos para="" operacion="BASE-CAMBIAR" roles="*"/>
+	</modelo>
+	<modelo id="Usuarios">
+		<permisos para="Consultar" operacion="USUARIOS-GET" roles="Admin"/>
+		<permisos para="Nuevo" operacion="USUARIOS-NUEVO" roles="Admin"/>
+		<permisos para="Agregar" operacion="USUARIOS-POST" roles="Admin"/>
+		<permisos para="Abrir" operacion="USUARIOS/ID-GET" roles="Admin"/>
+		<permisos para="Editar" operacion="USUARIOS/ID-PUT" roles="Admin"/>
+		<permisos para="Borrar" operacion="USUARIOS/ID-DELETE" roles="Admin"/>
+		<permisos para="Imagen" operacion="USUARIOS/ID-IMAGEN" roles="Admin"/>
+		<permisos para="Atributos" operacion="USUARIOS-ATRIBUTOS" roles="*"/>
+		<permisos para="Refrescar" operacion="USUARIOS/ID-REFRESCAR" roles="*"/>
+		<permisos para="nuevoAvatar" operacion="USUARIOS-NUEVOAVATAR" roles="*"/>
+		<permisos para="Avatar" operacion="USUARIOS-AVATAR" roles="*"/>
+		<permisos para="nuevaClave" operacion="USUARIOS-NUEVACLAVE" roles="*"/>
+		<permisos para="Clave" operacion="USUARIOS-CLAVE" roles="*"/>
+	</modelo>
+</me>

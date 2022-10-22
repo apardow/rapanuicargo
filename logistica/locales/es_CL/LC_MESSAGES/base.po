@@ -1,0 +1,318 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: base\n"
+"POT-Creation-Date: 2020-11-04 14:21-0300\n"
+"PO-Revision-Date: 2020-11-04 14:29-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es_CL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Poedit-Basepath: ../../../servicios\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: InfoBase.php\n"
+
+#: InfoBase.php:4
+msgid "Hola (alias)|"
+msgstr ""
+"Hola (alias),|Hemos recibido una solicitud de restablecimiento de contraseña "
+"de su cuenta.|Para cambiar su contraseña debe ingresar los siguientes datos "
+"en la página de \"Acceso de usuarios\".||Usuario: (usuario)|Codigo: "
+"(codigo)||La dirección para acceder a la Aplicación es:|(url)||Este es un "
+"mensaje automático enviado a petición del usuario, favor de no responder.|"
+
+#: InfoBase.php:6
+msgid "Nombre-de-usuario-o-contraseña-no-validos"
+msgstr "Nombre de usuario o contraseña no válidos"
+
+#: InfoBase.php:7
+msgid "Inicie-sesion-para-ingresar-a-la-aplicacion"
+msgstr "Inicie sesión para ingresar a la aplicación"
+
+#: InfoBase.php:8
+msgid "Iniciar-sesion"
+msgstr "Iniciar sesión"
+
+#: InfoBase.php:9
+msgid "Acceso-usuarios"
+msgstr "Acceso usuarios"
+
+#: InfoBase.php:11
+msgid "Olvido-su-contraseña?"
+msgstr "¿Olvidó su contraseña?"
+
+#: InfoBase.php:12
+msgid "Su-correo-electronico"
+msgstr "Su Correo electrónico"
+
+#: InfoBase.php:13
+msgid "Enviar-codigo"
+msgstr "Enviar código"
+
+#: InfoBase.php:14
+msgid "Si-ya-lo-recibio-vaya-a"
+msgstr "Si ya recibió el código, vaya a"
+
+#: InfoBase.php:15
+msgid "Ingresar-codigo"
+msgstr "INGRESAR CÓDIGO"
+
+#: InfoBase.php:16
+msgid "Restablecer-su-contraseña"
+msgstr "Restablecer su contraseña"
+
+#: InfoBase.php:17
+msgid "Restablecer"
+msgstr "Restablecer contraseña"
+
+#: InfoBase.php:18
+msgid "Le-enviamos-un-correo-con-instrucciones"
+msgstr ""
+"Pronto recibirá un correo electrónico con un código para restablecer su "
+"contraseña. Revise la carpeta de spam si no lo encuentra"
+
+#: InfoBase.php:19
+msgid "Escriba-el-codigo-que-recibio-y-complete-el-formulario"
+msgstr ""
+"Escriba el código que recibió, su nombre de usuario e ingrese su nueva "
+"contraseña (dos veces)"
+
+#: InfoBase.php:20
+msgid "Codigo"
+msgstr "Código"
+
+#: InfoBase.php:21
+msgid "Usuario"
+msgstr "Usuario"
+
+#: InfoBase.php:22
+msgid "Nueva-contraseña"
+msgstr "Nueva contraseña"
+
+#: InfoBase.php:23
+msgid "Repita-la-contraseña"
+msgstr "Repita la contraseña"
+
+#: InfoBase.php:24
+msgid ""
+"Ingrese-su-correo-para-enviarle-un-codigo-para-restablecer-su-contraseña"
+msgstr ""
+"Ingrese el correo electrónico de su cuenta y le enviaremos un código para "
+"restablecer su contraseña"
+
+#: InfoBase.php:26
+msgid "Asunto-mensaje-codigo"
+msgstr "Código para restablecer contraseña"
+
+#: InfoBase.php:27
+msgid "El-correo-no-corresponde-a-ninguna-cuenta-vigente"
+msgstr ""
+"El correo electrónico que indicó no corresponde a ninguna cuenta vigente"
+
+#: InfoBase.php:28
+msgid "El-codigo-fue-enviado-por-correo"
+msgstr ""
+"El código para restablecer su contraseña fue enviado por correo electrónico"
+
+#: InfoBase.php:29
+msgid "El-codigo-no-pudo-enviarse"
+msgstr "El código para restablecer su contraseña no pudo enviarse"
+
+#: InfoBase.php:30
+msgid "El-codigo-ingresado-no-es-valido"
+msgstr "El código y/o usuario que ingresó no son válidos"
+
+#: InfoBase.php:31
+msgid "La-contraseña-no-pudo-restablecerse"
+msgstr "La contraseña no pudo restablecerse"
+
+#: InfoBase.php:32
+msgid "La-contraseña-fue-restablecida"
+msgstr "La contraseña fue restablecida"
+
+#: InfoBase.php:33
+msgid "M_Perfil-de-usuario"
+msgstr "Perfil de usuario"
+
+#: InfoBase.php:34
+msgid "M_Elegir-idioma"
+msgstr "Elegir idioma"
+
+#: InfoBase.php:35
+msgid "M_Administracion"
+msgstr "Administración"
+
+#: InfoBase.php:36
+msgid "M_Usuarios"
+msgstr "Usuarios"
+
+#: InfoBase.php:37
+msgid "M_Administrar-usuarios"
+msgstr "Administrar Usuarios"
+
+#: InfoBase.php:38
+msgid "M_Cambiar-contraseña"
+msgstr "Cambiar contraseña"
+
+#: InfoBase.php:39
+msgid "Espere-un-momento"
+msgstr "Espere un momento"
+
+#: InfoBase.php:40
+msgid "Salir"
+msgstr "Salir"
+
+#: InfoBase.php:41
+msgid "Cerrar-sesion"
+msgstr "Cerrar sesión"
+
+#: InfoBase.php:42
+msgid "Cambiar-a"
+msgstr "Cambiar a"
+
+#: InfoBase.php:43
+msgid "Hace"
+msgstr "Hace"
+
+#: InfoBase.php:44
+msgid "No-hay"
+msgstr "No hay"
+
+#: InfoBase.php:45
+msgid "por-revisar"
+msgstr "por revisar"
+
+#: InfoBase.php:46
+msgid "Ver-todo"
+msgstr "Ver todo"
+
+#: InfoBase.php:47
+msgid "Panel-de-comandos"
+msgstr "Panel de comandos"
+
+#: InfoBase.php:48
+msgid "Editor-HTML"
+msgstr "Editor HTML"
+
+#: InfoBase.php:49
+msgid "No-hay-items-para-elegir"
+msgstr "No hay ítems para elegir"
+
+#: InfoBase.php:50
+msgid "Desde"
+msgstr "Desde"
+
+#: InfoBase.php:51
+msgid "Hasta"
+msgstr "Hasta"
+
+#: InfoBase.php:54
+msgid "Error-de-conexion-vuelva-a-intentar-luego"
+msgstr "Error de conexión, vuelva a intentar en unos momentos"
+
+#: InfoBase.php:55
+msgid "La-respuesta-no-contiene-datos"
+msgstr "La respuesta no contiene datos"
+
+#: InfoBase.php:56
+msgid "Debe-escribir-dos-veces-la-misma-contraseña"
+msgstr "Debe escribir dos veces la misma contraseña"
+
+#: InfoBase.php:57
+msgid "Se-cambio-a:-(n)"
+msgstr "Se cambió a: (n)"
+
+#: InfoBase.php:58
+msgid "No-se-eligio-ningun-caso"
+msgstr "No se eligió ningún caso"
+
+#: InfoBase.php:59
+msgid "Cambiar-imagen"
+msgstr "Cambiar imagen"
+
+#: InfoBase.php:60
+msgid "Cancelar"
+msgstr "Cancelar"
+
+#: InfoBase.php:61
+msgid "Elegir-archivo"
+msgstr "Elegir archivo"
+
+#: InfoBase.php:62
+msgid "Elegir-nueva-imagen"
+msgstr "Elegir nueva imagen"
+
+#: InfoBase.php:63
+msgid "El-archivo-supera-el-peso-maximo-permitido"
+msgstr "El archivo supera el peso máximo permitido"
+
+#: InfoBase.php:64
+msgid "No-se-puede-subir-el-tipo-de-archivo"
+msgstr "No se puede subir el tipo de archivo. Los tipos permitidos son"
+
+#: InfoBase.php:65
+msgid "Espere"
+msgstr "Espere"
+
+#: InfoBase.php:66
+msgid "No-se-ha-elegido-ninguna-funcion-para-ejecutar"
+msgstr "Debe elegir una función para ejecutar con los casos elegidos"
+
+#: InfoBase.php:67
+msgid "No-hay-casos-elegidos-para-ejecutar-la-funcion"
+msgstr "Debe elegir uno o más casos para ejecutar la función"
+
+#: InfoBase.php:68
+msgid "Guardar"
+msgstr "Guardar"
+
+#: InfoBase.php:69
+msgid "No,-cancelar"
+msgstr "No, cancelar"
+
+#: InfoBase.php:70
+msgid "Cargar"
+msgstr "Cargar"
+
+#: InfoBase.php:71
+msgid "No-se-indico-una-url-para-abrir"
+msgstr "No se indicó una URL para abrir"
+
+#: InfoBase.php:73
+msgid "A_Codigo"
+msgstr "Código"
+
+#: InfoBase.php:73
+msgid "no-es-valido"
+msgstr "no es válido"
+
+#: InfoBase.php:74
+msgid "A_Usuario"
+msgstr "Usuario"
+
+#: InfoBase.php:74
+msgid "debe-tener-entre-(min)-y-(max)-caracteres-solo-letras-y-numeros"
+msgstr "debe tener entre (min) y (max) caracteres, sólo letras y números"
+
+#: InfoBase.php:75 InfoBase.php:76
+msgid "A_Contraseña"
+msgstr "Contraseña"
+
+#: InfoBase.php:75 InfoBase.php:76
+msgid ""
+"debe-tener-entre-(min)-y-(max)-caracteres-solo-letras-numeros-y-"
+"caracteres: .,-_"
+msgstr ""
+"debe tener entre (min) y (max) caracteres, sólo letras, números y "
+"caracteres: .,-_"
+
+#: InfoBase.php:77
+msgid "A_Correo-electronico"
+msgstr "Correo electrónico"
+
+#: InfoBase.php:77
+msgid "debe-ser-un-correo-valido"
+msgstr "debe ser un correo electrónico válido"

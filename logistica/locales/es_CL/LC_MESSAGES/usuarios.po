@@ -1,0 +1,286 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: usuarios\n"
+"POT-Creation-Date: 2020-01-01 00:00-0300\n"
+"PO-Revision-Date: 2020-01-01 00:00-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es_CL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Poedit-Basepath: ../../../servicios\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: InfoUsuarios.php\n"
+
+#: InfoUsuarios.php.php:374
+msgid "¿Borrar-caso?"
+msgstr "¿Borrar Usuario?"
+
+#: InfoUsuarios.php.php:375
+msgid "Se-perderan-los-datos-de-este-caso"
+msgstr "Se perderán los datos de este Usuario"
+
+#: InfoUsuarios.php.php:376
+msgid "Si,-borrar-caso"
+msgstr "Si, borrar Usuario"
+
+#: InfoUsuarios.php.php:377
+msgid "No,-cancelar"
+msgstr "No, cancelar"
+
+#: InfoUsuarios.php.php:378
+msgid "Cancelar"
+msgstr "Cancelar"
+
+#: InfoUsuarios.php.php:379
+msgid "Elegir-nueva-imagen"
+msgstr "Elegir nueva imagen"
+
+#: InfoUsuarios.php.php:380
+msgid "La-imagen-fue-cambiada"
+msgstr "La imagen fue cambiada"
+
+#: InfoUsuarios.php.php:381
+msgid "Cambiar-imagen"
+msgstr "Cambiar imagen"
+
+#: InfoUsuarios.php.php:382
+msgid "Subir"
+msgstr "Subir"
+
+#: InfoUsuarios.php.php:383
+msgid "Si,-continuar"
+msgstr "Si, continuar"
+
+#: InfoUsuarios.php.php:384
+msgid "Espere"
+msgstr "Espere"
+
+#: InfoUsuarios.php.php:385
+msgid "Guardar"
+msgstr "Guardar"
+
+#: InfoUsuarios.php.php:386
+msgid "No-hay-casos-elegidos-para-ejecutar-la-funcion"
+msgstr "No hay Usuarios elegidos para ejecutar la función"
+
+#: InfoUsuarios.php.php:387
+msgid "No-se-ha-elegido-ninguna-funcion-para-ejecutar"
+msgstr "No se ha elegido ninguna función para ejecutar"
+
+#: InfoUsuarios.php.php:388
+msgid "¿Realizar-cambio?"
+msgstr "¿Realizar cambio?"
+
+#: InfoUsuarios.php.php:389
+msgid "Error-de-conexion,-vuelva-a-intentar-luego"
+msgstr "Error de conexión, vuelva a intentar luego"
+
+#: InfoUsuarios.php.php:390
+msgid "No-se-recibieron-datos"
+msgstr "No se recibieron datos"
+
+#: InfoUsuarios.php.php:391
+msgid "No-se-indico-una-url-para-abrir"
+msgstr "No se indicó una URL para abrir"
+
+#: InfoUsuarios.php.php:392
+msgid "El-caso-fue-guardado"
+msgstr "El Usuario fue guardado"
+
+#: InfoUsuarios.php.php:393
+msgid "El-caso-no-pudo-ser-guardado"
+msgstr "El Usuario no pudo ser guardado"
+
+#: InfoUsuarios.php.php:394
+msgid "El-caso-fue-actualizado"
+msgstr "El Usuario fue actualizado"
+
+#: InfoUsuarios.php.php:395
+msgid "El-caso-no-pudo-ser-actualizado"
+msgstr "El Usuario no pudo ser actualizado"
+
+#: InfoUsuarios.php.php:396
+msgid "El-caso-fue-borrado"
+msgstr "El Usuario fue borrado"
+
+#: InfoUsuarios.php.php:397
+msgid "El-caso-no-pudo-ser-borrado"
+msgstr "El Usuario no pudo ser borrado"
+
+#: InfoUsuarios.php.php:398
+msgid "No-se-encontro-el-caso-solicitado"
+msgstr "No se encontró el Usuario solicitado"
+
+#: InfoUsuarios.php.php:399
+msgid "(total)-casos.-Lista-del-(primero)-al-(ultimo)"
+msgstr "(total) Usuarios. Lista del (primero) al (ultimo)"
+
+#: InfoUsuarios.php.php:400
+msgid "No-hay-casos"
+msgstr "No hay Usuarios"
+
+#: InfoUsuarios.php.php:401
+msgid "Se-produjo-un-error-al-consultar-los-datos"
+msgstr "Se produjo un error al consultar los datos"
+
+#: InfoUsuarios.php.php:402
+msgid "Los-casos-fueron-actualizados"
+msgstr "Los Usuarios fueron actualizados"
+
+#: InfoUsuarios.php.php:403
+msgid "Los-casos-no-pudieron-actualizarse"
+msgstr "Los Usuarios no pudieron actualizarse"
+
+#: InfoUsuarios.php.php:404
+msgid "El-archivo-fue-cargado"
+msgstr "El archivo fue cargado"
+
+#: InfoUsuarios.php.php:405
+msgid "El-archivo-no-pudo-cargarse"
+msgstr "El archivo no pudo cargarse"
+
+#: InfoUsuarios.php.php:406
+msgid "La-imagen-no-pudo-ser-asignada"
+msgstr "La imagen no pudo ser asignada"
+
+#: InfoUsuarios.php.php:407
+msgid "El-archivo-no-fue-guardado"
+msgstr "El archivo no fue guardado"
+
+#: InfoUsuarios.php.php:408
+msgid "El-archivo-fue-guardado"
+msgstr "El archivo fue guardado"
+
+#: InfoUsuarios.php.php:409
+msgid "Imagen-actual"
+msgstr "Imagen actual"
+
+#: InfoUsuarios.php.php:410
+msgid "Nuevo-caso"
+msgstr "Nuevo Usuario"
+
+#: InfoUsuarios.php.php:411
+msgid "Administrar-casos"
+msgstr "Administrar Usuarios"
+
+#: InfoUsuarios.php.php:412
+msgid "Agregar-caso"
+msgstr "Agregar Usuario"
+
+#: InfoUsuarios.php.php:413
+msgid "Ver-caso"
+msgstr "Ver Usuario"
+
+#: InfoUsuarios.php.php:414
+msgid "Editar-caso"
+msgstr "Editar Usuario"
+
+#: InfoUsuarios.php.php:415
+msgid "Borrar-caso"
+msgstr "Borrar Usuario"
+
+#: InfoUsuarios.php.php:416
+msgid "Guardar-caso"
+msgstr "Guardar Usuario"
+
+#: InfoUsuarios.php.php:417
+msgid "Adjuntar-archivo"
+msgstr "Adjuntar archivo"
+
+#: InfoUsuarios.php.php:418
+msgid "Exportar-PDF"
+msgstr "Exportar PDF"
+
+#: InfoUsuarios.php.php:419
+msgid "Buscar"
+msgstr "Buscar"
+
+#: InfoUsuarios.php.php:420
+msgid "Funcion"
+msgstr "Función"
+
+#: InfoUsuarios.php.php:421
+msgid "Hacer"
+msgstr "Hacer"
+
+#: InfoUsuarios.php.php:422
+msgid "Cambiar-estado"
+msgstr "Cambiar estado"
+
+#: InfoUsuarios.php.php:423
+msgid "Cerrar"
+msgstr "Cerrar"
+
+#: InfoUsuarios.php.php:424
+msgid "Guardar-cambios"
+msgstr "Guardar cambios"
+
+#: InfoUsuarios.php.php:425
+msgid "Editor-HTML"
+msgstr "Editor HTML"
+
+#: InfoUsuarios.php.php:426
+msgid "No-hay-items-para-elegir"
+msgstr "No hay ítems para elegir"
+
+#: InfoUsuarios.php.php:427
+msgid "TODO"
+msgstr "TODO"
+
+#: InfoUsuarios.php.php:428
+msgid "Desde"
+msgstr "Desde"
+
+#: InfoUsuarios.php.php:429
+msgid "Hasta"
+msgstr "Hasta"
+
+#: InfoUsuarios.php.php:430
+msgid "Debe-escribir-dos-veces-la-nueva-contraseña"
+msgstr "Debe escribir dos veces la nueva contraseña"
+
+#: InfoUsuarios.php.php:431
+msgid "Cambiar-contraseña"
+msgstr "Cambiar contraseña"
+
+#: InfoUsuarios.php.php:432
+msgid "Cambiar-la-imagen"
+msgstr "Cambiar la imagen"
+
+#: InfoUsuarios.php.php:433
+msgid "Contraseña-actual"
+msgstr "Contraseña actual"
+
+#: InfoUsuarios.php.php:434
+msgid "La-contraseña-fue-cambiada"
+msgstr "La contraseña fue cambiada"
+
+#: InfoUsuarios.php.php:435
+msgid "La-contraseña-no-pudo-cambiarse"
+msgstr "La contraseña no pudo cambiarse"
+
+#: InfoUsuarios.php.php:436
+msgid "La-contraseña-enviada-no-es-valida"
+msgstr "La contraseña enviada no es válida"
+
+#: InfoUsuarios.php.php:437
+msgid "Nueva-contraseña"
+msgstr "Nueva contraseña"
+
+#: InfoUsuarios.php.php:438
+msgid "Escriba-su-contraseña-actual"
+msgstr "Escriba su contraseña actual"
+
+#: InfoUsuarios.php.php:439
+msgid "Vuelva-a-escribirla"
+msgstr "Vuelva a escribirla"
+
+#: InfoUsuarios.php.php:440
+msgid "Escriba-su-nueva-contraseña"
+msgstr "Escriba su nueva contraseña"
+
+
